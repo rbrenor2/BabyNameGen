@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct BabyNameGenApp: App {
-    let root = ContentView(vm: ContentView.ViewModel(randomNameService: RandomNameMockService()))
+    let root = ContentView(vm: ContentView.ViewModel(randomNameService: RandomNameApiService()))
 
     var body: some Scene {
         WindowGroup {

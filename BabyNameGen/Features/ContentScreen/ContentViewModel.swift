@@ -32,7 +32,7 @@ extension ContentView {
                     self?.isLoading.toggle()
                 }
             } catch {
-                print("Error getting the name...")
+                print("Error getting the name from Service")
             }
         }
     }

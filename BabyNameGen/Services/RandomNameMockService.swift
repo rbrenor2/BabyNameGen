@@ -7,15 +7,6 @@
 
 import Foundation
 
-enum DataInfoIndex: Int {
-    case year = 0
-    case gender = 1
-    case ethinicity = 2
-    case name = 3
-    case numberOfOcurrencies = 4
-    case rank = 5
-}
-
 let data = [
     ["2016", "FEMALE", "ASIAN AND PACIFIC ISLANDER", "Olivia", "172", "1"],
     ["2016", "FEMALE", "ASIAN AND PACIFIC ISLANDER", "Chloe", "112", "2"],
@@ -110,7 +101,7 @@ struct RandomNameMockService: RandomNameService {
 
         try? await Task.sleep(nanoseconds: UInt64(2 * Double(NSEC_PER_SEC)))
         
-        let nameInfo = NameInfo(year: randomName[DataInfoIndex.year.rawValue], gender: randomName[DataInfoIndex.name.rawValue], ethinicity: randomName[DataInfoIndex.ethinicity.rawValue], name: randomName[DataInfoIndex.name.rawValue], numberOfOcurrences: randomName[DataInfoIndex.numberOfOcurrencies.rawValue], rank: randomName[DataInfoIndex.rank.rawValue])
+        let nameInfo = NameInfo.getNameInfoFrom(randomName)
         
         return nameInfo
     }

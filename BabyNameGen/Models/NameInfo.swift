@@ -12,4 +12,8 @@ struct NameInfo: Decodable {
     let name: String
     let numberOfOcurrences: String
     let rank: String
+    
+    static func getNameInfoFrom(_ info: [String]) -> NameInfo {
+        return NameInfo(year: info[DataInfoIndex.year.rawValue], gender: info[DataInfoIndex.name.rawValue], ethinicity: info[DataInfoIndex.ethinicity.rawValue], name: info[DataInfoIndex.name.rawValue], numberOfOcurrences: info[DataInfoIndex.numberOfOcurrencies.rawValue], rank: info[DataInfoIndex.rank.rawValue])
+    }
 }

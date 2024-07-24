@@ -5,18 +5,11 @@
 //  Created by Breno R R on 24/07/2024.
 //
 
-
 import Foundation
-
-enum NetworkError: Error {
-    case badURL
-    case badResponse
-    case invalidData
-}
 
 struct RandomNameApiService: RandomNameService {
     func getRandomNameFor(_ gender: Gender) async throws -> NameInfo {
-        let endpoint = gender == .MALE ? Environment.Endpoints.namesMale : Environment.Endpoints.namesFemale
+        let endpoint = gender == .MALE ? Environment.Endpoints.namesMale.rawValue : Environment.Endpoints.namesFemale.rawValue
         
         guard let endpointUrl = URL(string: "\(Environment.baseURL)\(endpoint)") else {
             throw NetworkError.badURL
@@ -31,8 +24,9 @@ struct RandomNameApiService: RandomNameService {
         }
         
         do {
-            let decodedData = try JSONDecoder().decode(NameInfo.self, from: data)
-            return decodedData
+            let decodedData = try JSONDecoder().decode([String].self, from: data)
+            let nameInfo = NameInfo.getNameInfoFrom(decodedData)
+            return nameInfo
         } catch {
             throw NetworkError.invalidData
         }
