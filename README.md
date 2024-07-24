@@ -10,6 +10,6 @@ Baby Name Generator is an app that provides you with a random name for your baby
 
 ### Next steps
 - The project already contains the structure for `RandomNameApiService`that should be able to fetch data from a real server and also return a `NameInfo`. - *still needs an API*
-- It was also added an Environment struct where the endpoints can be stored and also that fetches the BASE_URL from the project configuration (so we can have different environments for Debug, Release and/or others - *still needs an API*
+- It was also added an Environment struct where the endpoints can be stored and also that fetches the `NAME_API_BASE_URL` from the project configuration (so we can have different environments for Debug, Release and/or others - *still needs an API*
 
 
