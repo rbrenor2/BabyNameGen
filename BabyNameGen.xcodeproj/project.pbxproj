@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		670B0A682C4C78C6009139C2 /* RandomNameMockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670B0A672C4C78C6009139C2 /* RandomNameMockService.swift */; };
+		670B0A6D2C4C798F009139C2 /* RandomNameServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670B0A6C2C4C7986009139C2 /* RandomNameServiceProtocol.swift */; };
+		670B0A6F2C4C79B3009139C2 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670B0A6E2C4C79B0009139C2 /* Gender.swift */; };
+		670B0A712C4C79EA009139C2 /* NameInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670B0A702C4C79D8009139C2 /* NameInfo.swift */; };
+		670B0A822C4D01FD009139C2 /* GenerateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670B0A812C4D01FD009139C2 /* GenerateButton.swift */; };
+		670B0A842C4D026E009139C2 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670B0A832C4D026E009139C2 /* AsyncButton.swift */; };
+		670B0A992C5153CC009139C2 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670B0A982C5153C9009139C2 /* Environment.swift */; };
+		670B0A9B2C517449009139C2 /* RandomNameApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670B0A9A2C517443009139C2 /* RandomNameApiService.swift */; };
 		679E22092C4BDF30002571E1 /* BabyNameGenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679E22082C4BDF30002571E1 /* BabyNameGenApp.swift */; };
 		679E220B2C4BDF30002571E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679E220A2C4BDF30002571E1 /* ContentView.swift */; };
 		679E220D2C4BDF31002571E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 679E220C2C4BDF31002571E1 /* Assets.xcassets */; };
@@ -14,6 +22,8 @@
 		679E221A2C4BDF31002571E1 /* BabyNameGenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679E22192C4BDF31002571E1 /* BabyNameGenTests.swift */; };
 		679E22242C4BDF31002571E1 /* BabyNameGenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679E22232C4BDF31002571E1 /* BabyNameGenUITests.swift */; };
 		679E22262C4BDF31002571E1 /* BabyNameGenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679E22252C4BDF31002571E1 /* BabyNameGenUITestsLaunchTests.swift */; };
+		679E22352C4BE2D4002571E1 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679E22342C4BE2D4002571E1 /* ContentViewModel.swift */; };
+		679E22382C4BE34F002571E1 /* ContentViewModel_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679E22372C4BE34F002571E1 /* ContentViewModel_Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		670B0A672C4C78C6009139C2 /* RandomNameMockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNameMockService.swift; sourceTree = "<group>"; };
+		670B0A6C2C4C7986009139C2 /* RandomNameServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNameServiceProtocol.swift; sourceTree = "<group>"; };
+		670B0A6E2C4C79B0009139C2 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		670B0A702C4C79D8009139C2 /* NameInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameInfo.swift; sourceTree = "<group>"; };
+		670B0A812C4D01FD009139C2 /* GenerateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateButton.swift; sourceTree = "<group>"; };
+		670B0A832C4D026E009139C2 /* AsyncButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
+		670B0A972C5152A6009139C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		670B0A982C5153C9009139C2 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		670B0A9A2C517443009139C2 /* RandomNameApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNameApiService.swift; sourceTree = "<group>"; };
 		679E22052C4BDF30002571E1 /* BabyNameGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyNameGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		679E22082C4BDF30002571E1 /* BabyNameGenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyNameGenApp.swift; sourceTree = "<group>"; };
 		679E220A2C4BDF30002571E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +63,8 @@
 		679E221F2C4BDF31002571E1 /* BabyNameGenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyNameGenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		679E22232C4BDF31002571E1 /* BabyNameGenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyNameGenUITests.swift; sourceTree = "<group>"; };
 		679E22252C4BDF31002571E1 /* BabyNameGenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyNameGenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		679E22342C4BE2D4002571E1 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		679E22372C4BE34F002571E1 /* ContentViewModel_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel_Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +92,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		670B0A692C4C7965009139C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				670B0A702C4C79D8009139C2 /* NameInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		670B0A6A2C4C7970009139C2 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				670B0A6E2C4C79B0009139C2 /* Gender.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		670B0A6B2C4C797B009139C2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				670B0A6C2C4C7986009139C2 /* RandomNameServiceProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		670B0A742C4C7B0A009139C2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				670B0A9A2C517443009139C2 /* RandomNameApiService.swift */,
+				670B0A672C4C78C6009139C2 /* RandomNameMockService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		670B0A7B2C4CFFA4009139C2 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				670B0A8F2C50E9C2009139C2 /* ContentScreen */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		670B0A7C2C4D012E009139C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				670B0A812C4D01FD009139C2 /* GenerateButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		670B0A7F2C4D0158009139C2 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				670B0A802C4D016B009139C2 /* Components */,
+				670B0A6B2C4C797B009139C2 /* Protocols */,
+				670B0A6A2C4C7970009139C2 /* Enums */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		670B0A802C4D016B009139C2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				670B0A832C4D026E009139C2 /* AsyncButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		670B0A8F2C50E9C2009139C2 /* ContentScreen */ = {
+			isa = PBXGroup;
+			children = (
+				670B0A7C2C4D012E009139C2 /* Views */,
+				679E220A2C4BDF30002571E1 /* ContentView.swift */,
+				679E22342C4BE2D4002571E1 /* ContentViewModel.swift */,
+			);
+			path = ContentScreen;
+			sourceTree = "<group>";
+		};
 		679E21FC2C4BDF30002571E1 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +192,13 @@
 		679E22072C4BDF30002571E1 /* BabyNameGen */ = {
 			isa = PBXGroup;
 			children = (
+				670B0A972C5152A6009139C2 /* Info.plist */,
+				670B0A692C4C7965009139C2 /* Models */,
+				670B0A7F2C4D0158009139C2 /* Shared */,
+				670B0A742C4C7B0A009139C2 /* Services */,
+				670B0A7B2C4CFFA4009139C2 /* Features */,
 				679E22082C4BDF30002571E1 /* BabyNameGenApp.swift */,
-				679E220A2C4BDF30002571E1 /* ContentView.swift */,
+				670B0A982C5153C9009139C2 /* Environment.swift */,
 				679E220C2C4BDF31002571E1 /* Assets.xcassets */,
 				679E220E2C4BDF31002571E1 /* Preview Content */,
 			);
@@ -113,6 +216,7 @@
 		679E22182C4BDF31002571E1 /* BabyNameGenTests */ = {
 			isa = PBXGroup;
 			children = (
+				679E22362C4BE324002571E1 /* Content */,
 				679E22192C4BDF31002571E1 /* BabyNameGenTests.swift */,
 			);
 			path = BabyNameGenTests;
@@ -125,6 +229,14 @@
 				679E22252C4BDF31002571E1 /* BabyNameGenUITestsLaunchTests.swift */,
 			);
 			path = BabyNameGenUITests;
+			sourceTree = "<group>";
+		};
+		679E22362C4BE324002571E1 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				679E22372C4BE34F002571E1 /* ContentViewModel_Tests.swift */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +369,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				670B0A9B2C517449009139C2 /* RandomNameApiService.swift in Sources */,
+				670B0A842C4D026E009139C2 /* AsyncButton.swift in Sources */,
+				670B0A822C4D01FD009139C2 /* GenerateButton.swift in Sources */,
+				670B0A6F2C4C79B3009139C2 /* Gender.swift in Sources */,
+				670B0A992C5153CC009139C2 /* Environment.swift in Sources */,
+				679E22352C4BE2D4002571E1 /* ContentViewModel.swift in Sources */,
+				670B0A682C4C78C6009139C2 /* RandomNameMockService.swift in Sources */,
 				679E220B2C4BDF30002571E1 /* ContentView.swift in Sources */,
+				670B0A712C4C79EA009139C2 /* NameInfo.swift in Sources */,
+				670B0A6D2C4C798F009139C2 /* RandomNameServiceProtocol.swift in Sources */,
 				679E22092C4BDF30002571E1 /* BabyNameGenApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				679E22382C4BE34F002571E1 /* ContentViewModel_Tests.swift in Sources */,
 				679E221A2C4BDF31002571E1 /* BabyNameGenTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,6 +473,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				NAME_API_BASE_URL = "https://mock_9669a6e0a85e492d8eaa4768e6f063d6.mock.insomnia.rest/";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
@@ -408,6 +531,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				NAME_API_BASE_URL = "https://mock_9669a6e0a85e492d8eaa4768e6f063d6.mock.insomnia.rest/";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
@@ -425,6 +549,7 @@
 				DEVELOPMENT_TEAM = 3Y69BC5249;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BabyNameGen/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +579,7 @@
 				DEVELOPMENT_TEAM = 3Y69BC5249;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BabyNameGen/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

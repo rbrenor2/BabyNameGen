@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct BabyNameGenApp: App {
+    let root = ContentView(vm: ContentView.ViewModel(randomNameService: RandomNameMockService()))
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            root
         }
     }
 }
